@@ -37,6 +37,7 @@ def move(n,source,auxiliary,target):
         elif remainder == 0:
             #print(f'allowed between {target} and {auxiliary}')
             print(f'allowed between {auxiliary} and {target}\n')
+            print("made changes for gitHub")
             make_allowed_move(auxiliary,target)
 
             
